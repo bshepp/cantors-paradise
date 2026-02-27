@@ -46,7 +46,7 @@ dev = [
 cantor = "cantor.cli:cli"
 
 [project.urls]
-Repository = "https://github.com/YOUR_USERNAME/cantors-paradise"
+Repository = "https://github.com/bshepp/cantors-paradise"
 
 [build-system]
 requires = ["setuptools>=69.0"]
