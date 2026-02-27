@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# Project data (large files, acquired locally)
+data/raw/*
+data/processed/*
+data/annotated/*
+data/training/*
+data/eval/*
+!data/**/.gitkeep
+cantor.db
+
+# Model outputs
+output/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+*.key
+
+# Logs
+*.log
+wandb/
